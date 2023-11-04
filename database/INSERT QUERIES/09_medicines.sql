@@ -1,0 +1,16 @@
+INSERT INTO medicines ( medicine_id,medicine_name,times_a_day,extra_doc_notes) VALUES
+(nextval('medicine_id_sequence'),'Amoxicillin',1,'Avoid alcohol during treatment'),
+(nextval('medicine_id_sequence'),'Lisinopril',1,'Do not skip doses'),
+(nextval('medicine_id_sequence'),'Atorvastatin',2,'Take with meals'),
+(nextval('medicine_id_sequence'),'Metformin',3,'Store in a cool place'),
+(nextval('medicine_id_sequence'),'Omeprazole',3,'Store in a cool place'),
+(nextval('medicine_id_sequence'),'Paracetamol',2,'Avoid alcohol during treatment'),
+(nextval('medicine_id_sequence'),'Ibuprofen',1,'Take with food or milk'),
+(nextval('medicine_id_sequence'),'Simvastatin',1,'Avoid consuming grapefruit'),
+(nextval('medicine_id_sequence'),'Warfarin',2,'Maintain consistent vitamin K intake'),
+(nextval('medicine_id_sequence'),'Fluoxetine',3,'Notify if you experience worsening depression or suicidal thoughts'),
+(nextval('medicine_id_sequence'),'Albuterol',2,'Rinse your mouth with water after using'),
+(nextval('medicine_id_sequence'),'Lisinopril',1,'Avoid salt or salt substitutes'),
+(nextval('medicine_id_sequence'),'Hydrochlorothiazide',2,'Stay adequately hydrated'),
+(nextval('medicine_id_sequence'),'Levothyroxine',1,'Take this medication on an empty stomach'),
+(nextval('medicine_id_sequence'),'Amlodipine',3,'Avoid sudden discontinuation ');
